@@ -20,7 +20,7 @@ jobs:
 
       - name: Clone repo2
         run: |
-          git clone https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/undefined-dev74/repo2.git
+          git clone https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/undefined-dev74/Repo-2.git
           cd repo2
           # Do the sync - copy files, commit, etc.
 
